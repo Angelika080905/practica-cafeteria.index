@@ -8,16 +8,15 @@ header {
 }
 nav{
     display:flex;
-    justify-content: :space-between;
-    align-
+    justify-content:space-between;
     width: 40%;
 }
 .logo{
-    width: 1%;x;
+    width: 100px;
 
 }
 
 
 .presentacion{
-    background-img:url("img\fondocafeteria.jpg");
+    background-image:url("img\fondocafeteria.jpg");
 }
