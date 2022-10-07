@@ -1,13 +1,23 @@
-header{
+header {
+    color:rgb(45, 116, 175);
+    text-align: center;
     display:flex;
     justify-content:space-between;
-    width:10%;
+    width:1%;
+
+}
+nav{
+    display:flex;
+    justify-content: :space-between;
+    align-
+    width: 40%;
 }
 .logo{
-    width:2px;
+    width: 1%;x;
+
 }
 
 
 .presentacion{
-    background-image:url(C:\Users\PILARES\Documents\NORMA\PRACTICACAFETERIA\img\fondocafeteria.jpg);
+    background-img:url("img\fondocafeteria.jpg");
 }
