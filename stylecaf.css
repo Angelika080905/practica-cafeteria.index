@@ -1,0 +1,13 @@
+header{
+    display:flex;
+    justify-content:space-between;
+    width:10%;
+}
+.logo{
+    width:2px;
+}
+
+
+.presentacion{
+    background-image:url(C:\Users\PILARES\Documents\NORMA\PRACTICACAFETERIA\img\fondocafeteria.jpg);
+}
