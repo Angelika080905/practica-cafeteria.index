@@ -1,22 +1,64 @@
 header {
     color:rgb(45, 116, 175);
-    text-align: center;
     display:flex;
     justify-content:space-between;
-    width:1%;
-
+    align-items:center;
+    width:90%;
+}
+header a{
+    text-decoration:none ;
+    padding:0.7em 0.8em 0.5em 0.3em;
+    border:3px solid black;
+    box-shadow:2px 4px 2px 4px rgb(189, 185, 185);
+    color:darkslategrey;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 nav{
+    width:500px;
     display:flex;
     justify-content:space-between;
-    width: 40%;
+    align-items:center;
+    background-color: whitesmoke;
+    
 }
 .logo{
-    width: 100px;
-
+    width: 200px;
+}
+.logo img{
+    width:170%; 
 }
 
-
 .presentacion{
-    background-image:url("img\fondocafeteria.jpg");
+    background-image: url("img/fondocafeteria.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.Menu-img{
+    display:grid ;  
+    grid-template-columns:400px 400px 400px;
+    grid-template-rows:150 150 150;
+    gap: 20px;
+}
+.Menu-img img{
+    width:70%;
+    height:70;
+}
+.imghamburguesa{
+    grid-colum:3/4;
+    grid-row:2/3;
+}
+.imgpastel{
+    grid-colum:3/4;
+    grid-row:2/3;
+}    
+
+
+.imgmalteada{
+    grid-colum:2/3;
+    grid-row: 1/2;
+}
+.imgcuernito{
+    grid-column: 3/4;
+    grid-row: 3/4;
 }
