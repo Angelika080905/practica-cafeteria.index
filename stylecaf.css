@@ -36,29 +36,37 @@ nav{
 }
 .Menu-img{
     display:grid ;  
-    grid-template-columns:400px 400px 400px;
-    grid-template-rows:150 150 150;
+    grid-template-columns:250px 250px 250;
+    grid-template-rows:250px 250px 250px ;
+    grid-template-areas: ". cafe crepa "
+                         "pastel . cuernito"
+                          "malteada hamburguesa .";
     gap: 20px;
 }
 .Menu-img img{
     width:70%;
     height:70;
 }
+.imgcafe{
+    grid-area: cafe;
+}
 .imghamburguesa{
-    grid-colum:3/4;
-    grid-row:2/3;
+    grid-area: hamburguesa; 
+}
+.imgcrepa{
+    grid-area:crepa;
+    
 }
 .imgpastel{
-    grid-colum:3/4;
-    grid-row:2/3;
-}    
+    grid-area:pastel;
+    
 
-
-.imgmalteada{
-    grid-colum:2/3;
-    grid-row: 1/2;
 }
 .imgcuernito{
-    grid-column: 3/4;
-    grid-row: 3/4;
+grid-area: cuernito;
+
+}
+.imgmalteada{
+    grid-area: malteada;
+    
 }
